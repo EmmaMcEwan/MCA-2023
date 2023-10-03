@@ -1,2 +1,7 @@
-~ <h1> Week One: Musical Datasets
+# Week One: Musical Datasets Task
 
+## Task One: Musical Data Theme
+The theme I have chosen for my musical data set and project work is the soundtrack in the popular game 'Minecraft'. Created in 2009, Minecraft is a 3D block-like survival game that has many challenges throughout. To me personally, the game is very nostalgic and their use of music is very important throughout to create mood and atmosphere. The music in the game primarily consists of two soundtrack albums by German musican Daniel Rosenfeld. From the Minecraft music wikipedia "The soundtrack's minimalistic and melancholic composition has been praised by critics. Keith Stuart of The Guardian noted that Rosenfeld's "wilting, minimalist tracks, slow-paced and slightly melancholy, recall the ambient works of Satie and Eno", calling it the game's "perfect accompaniment.". As this music is quite familar to me through playing the game I believe this will allow to feel more comfortable with the tasks at hand. 
+
+## Task Two: Metadata Surrounding My Chosen Musical Theme
+In terms of datasets related to the Minecraft game soundtrack, the first is recorded music found on streaming platforms such as YouTube and Spotify. This physical dataset allows the listener to, well, listen to the music at hand and hear how it is supposed to sound according to the creator. It also provides the listener with more specific data such as the duration of the songs, the timing, etc. The information that these streaming services help provide assists to the application of knowledge to the next dataset, which is sheet music. The sheet music for the minecraft soundtrack can be found online in many sheet music websites. 
