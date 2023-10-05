@@ -8,5 +8,5 @@ In terms of datasets related to the 'Minecraft' game soundtrack, the first is re
 
 Another data source for music is notated sheet music data. Sheet music can be physically hand written data or digitally sotred online in a photopgraphic format. Photos of sheet music can even be scanned through softwares in order to convert it to a digital, downloadable file format.
 
-##Task Three: Challenges faced
+## Task Three: Challenges faced
 Some challenges I faced with this starting off was that I struggled to find the sheet music I wanted tp focus on and had to use specific searching measures such as keywords and filtering processes. Thanks to these abilities on the musescore website, I was able to find my chosen sheet music file but it was harder than I anticipated. 
