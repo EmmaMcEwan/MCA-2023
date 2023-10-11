@@ -4,5 +4,5 @@ For this weeks task I decided to focus on a really simple musical score I found 
 
 After I downloaded the PDF I proceeded to convert it through the musescore programme and it uploaded and developed through the programme well. It processed pretty much identical to the PDF I provided, but I do think this is more to do with the simplicity of the piece as there still was some errors such as missing arpeggiated chords in a few lines. Screenshots of my processed chosen sheet music piece, "Dry Hands" are provided below:
 
-(/images/musescoredryhands.png)
+!(/images/musescoredryhands.png)
 
