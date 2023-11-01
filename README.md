@@ -3,4 +3,5 @@
 
 [week 2](week2.md)
 
+[week 3](week3.md)
 
