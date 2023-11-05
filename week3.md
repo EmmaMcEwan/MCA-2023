@@ -8,7 +8,7 @@ You can access my MEI file [here](https://mei-friend.mdw.ac.at/)
 
 In terms of the differences within the elements between XML and MEI, the first noticeable one is the different structures both types of files individually follow. The types of files both inscribe note values in sheet music differently for example XML is like:
 
-  <chord/>
+  [<chord/>
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -18,7 +18,7 @@ In terms of the differences within the elements between XML and MEI, the first n
         <type>half</type>
         <stem>up</stem>
         <staff>1</staff>
-        </note>
+        </note>]
 
 
     Whereas MEI is like so:
