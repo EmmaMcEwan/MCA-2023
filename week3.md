@@ -1,16 +1,3 @@
-# Week Three
-
-In this weeks activity I had the task of understanding basic encoding standards for musical data. In this activity I focused on generated both MusicXML and MEI files and experimenting with rending and modifying these MEI files.
-
-You can access my MUSIC.XML file [here](MUSIC.XMLFILE)
-
-You can access my MEI file [here](meicode)
-
-In terms of the differences within the elements between XML and MEI, the first noticeable one is the different structures both types of files individually follow. The types of files both inscribe note values in sheet music differently.
-
-For example XML is shown as in the following [screenshot](XML.png)
-
-The example for MEI code is shown in this [screenshot](MEI.png)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +25,11 @@ The example for MEI code is shown in this [screenshot](MEI.png)
 </head>
 <body>
     <div class="header"><h1>Week 3</h1>
-        <p>[Insert your response to task 2 here.]</p></div>
+        <p>[In this weeks activity I had the task of understanding basic encoding standards for musical data. In this activity I focused on generated both MusicXML and MEI files and experimenting with rending and modifying these MEI files.
+
+You can access my MUSIC.XML file [here](MUSIC.XMLFILE)
+
+You can access my MEI file [here](meicode)]</p></div>
     <div id="app">Verovio is loading...</div>
     <script type="module">
         import 'https://www.verovio.org/javascript/app/verovio-app.js';
