@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,11 +24,7 @@
 </head>
 <body>
     <div class="header"><h1>Week 3</h1>
-        <p>[In this weeks activity I had the task of understanding basic encoding standards for musical data. In this activity I focused on generated both MusicXML and MEI files and experimenting with rending and modifying these MEI files.
-
-You can access my MUSIC.XML file [here](MUSIC.XMLFILE)
-
-You can access my MEI file [here](meicode)]</p></div>
+        <p>[In this weeks activity I had the task of understanding basic encoding standards for musical data. In this activity I focused on generated both MusicXML and MEI files and experimenting with rending and modifying these MEI files.]</p></div>
     <div id="app">Verovio is loading...</div>
     <script type="module">
         import 'https://www.verovio.org/javascript/app/verovio-app.js';
