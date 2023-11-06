@@ -51,9 +51,9 @@ The example for MEI code is shown in this [screenshot](MEI.png)
         }
         
         // A MusicXML file
-        var file = 'meicode';
+        var file = 'MUSIC.XMLFILE';
         // A MEI file
-        //var file = 'https://www.verovio.org/editor/brahms.mei';
+        //var file = 'meicode';
         
         const app = new Verovio.App(document.getElementById("app"), options);
         fetch(file)
