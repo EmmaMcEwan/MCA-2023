@@ -1,3 +1,6 @@
+
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +14,9 @@
     }
     .header {
         padding: 20px;
-        height:80px;
+        height: 80px;
     }
-    #app {
+    .container {
         height: auto;
         width: 100%;
         position: absolute;
@@ -23,25 +26,25 @@
     </style>
 </head>
 <body>
-    <div class="header"><h1>Week 3</h1>
-        <p>[In this weeks activity I had the task of understanding basic encoding standards for musical data. In this activity I focused on generated both MusicXML and MEI files and experimenting with rending and modifying these MEI files.]</p></div>
-    <div id="app">Verovio is loading...</div>
+    <div class="header">
+        <h1>Week 3</h1>
+        <p>[In this week's activity, I had the task of understanding basic encoding standards for musical data. In this activity, I focused on generating both MusicXML and MEI files and experimenting with rendering and modifying these MEI files.]</p>
+    </div>
+    <div class="container">Verovio is loading...</div>
     <script type="module">
-        import 'https://www.verovio.org/javascript/app/verovio-app.js';
-        
+        import 'URL_TO_VEROVIO_LIBRARY'; // Replace with the correct URL to the Verovio library
+
         const options = {
-            defaultView: 'responsive', // default is 'responsive', alternative is 'document'
-            defaultZoom: 3, // 0-7, default is 4
-            enableResponsive: true, // default is true
-            enableDocument: true // default is true
+            defaultView: 'responsive',
+            defaultZoom: 3,
+            enableResponsive: true,
+            enableDocument: true
         }
-        
-        // A MusicXML file
-        var file = 'MUSIC.XMLFILE';
-        // A MEI file
-        //var file = 'meicode';
-        
-        const app = new Verovio.App(document.getElementById("app"), options);
+
+        // Replace with the actual path to your MusicXML or MEI file
+        var file = 'YOUR_FILE_PATH_HERE';
+
+        const app = new Verovio.App(document.querySelector(".container"), options);
         fetch(file)
             .then(function(response) {
                 return response.text();
@@ -52,5 +55,6 @@
     </script>
 </body>
 </html>
+```
 
-                    
+Please replace `'URL_TO_VEROVIO_LIBRARY'` with the actual URL to the Verovio library, and `'YOUR_FILE_PATH_HERE'` with the correct path to your MusicXML or MEI file. This code should work once you've made those replacements.
