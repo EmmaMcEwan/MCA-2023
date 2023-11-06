@@ -4,7 +4,7 @@ In this weeks activity I had the task of understanding basic encoding standards 
 
 You can access my MUSIC.XML file [here](MUSIC.XMLFILE)
 
-You can access my MEI file [here](https://mei-friend.mdw.ac.at/)
+You can access my MEI file [here](meicode)
 
 In terms of the differences within the elements between XML and MEI, the first noticeable one is the different structures both types of files individually follow. The types of files both inscribe note values in sheet music differently.
 
