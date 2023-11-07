@@ -24,7 +24,17 @@
 </head>
 <body>
     <div class="header"><h1>Week 3</h1>
-        <p>[Insert your response to task 2 here.]</p></div>
+        <p>[In this weeks activity I had the task of understanding basic encoding standards for musical data. In this activity I focused on generated both MusicXML and MEI files and experimenting with rending and modifying these MEI files.MusicXML and MEI are both ways to digitize music notation but they have many differences in their structure. One of these is the way different musical notations are presented within the code through parent and children code lines. 
+
+One element is the Notes:
+- In musicXML the <note> element is a child to the <measure> element, in terms of defining properties through attributes it has things like duration and pitch. Child elements are used to add articulations and other notations. 
+- In MEI, the <note> element is also a child of <measure> but MEI allows for a more stretched hierarchy of code. Within the <note> there are other children elements like <accid> for accidentals, <tie> for ties, etc. 
+The implications here in MEI provide greater flexibility of notations and their accuracy. MusicXML is simpler and better for beginners and people doing less in depth research. 
+
+Another example is the Clef:
+- In music XML the clef element contains 'line' and 'octave' this gives information on the position of the clef as well as the octave on top of the clef. 
+-In MEI, the clef contains things such as shape and oct for octave.
+The clef notation is the child to the measure parent element, and the implications are that MEI provides more flexibility when changing clefs which is useful for encoding music on a deeper level, whereas musicXML is basic in comparison.]</p></div>
     <div id="app">Verovio is loading...</div>
     <script type="module">
         import 'https://www.verovio.org/javascript/app/verovio-app.js';
