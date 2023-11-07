@@ -63,34 +63,3 @@ The clef notation is the child to the measure parent element, and the implicatio
 </body>
 </html>
 
-
-
-
-
-
-<!--  Replace 'height' below as needed, but must be fixed -->
-<style>
-    #app {
-        height: 800px;
-        width: 100%;
-    }
-</style>
-
-<div id="app">Verovio is loading...</div>
-
-<script type="module">
-    import 'https://www.verovio.org/javascript/app/verovio-app.js';
-
-    const options = {
-        defaultView: 'responsive', // 'responsive' | 'document'
-        defaultZoom: 3, // 0-7,
-        enableResponsive: true,
-        enableDocument: true
-    }
-
-    const app = new Verovio.App(document.getElementById("app"), options);
-
-    fetch('data/example.mei')
-        .then((response) => response.text())
-        .then(text => app.loadData(text));
-</script>
