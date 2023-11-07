@@ -3,6 +3,6 @@
 
 [week 2](week2.md)
 
-[week 3](week3.md)
+[week 3](verovio.html)
 
 [week 4](week4.md)
