@@ -24,7 +24,7 @@
 </head>
 <body>
     <div class="header"><h1>Week 3</h1>
-        <p>In this weeks activity I had the task of understanding basic encoding standards for musical data. In this activity I focused on generated both MusicXML and MEI files and experimenting with rending and modifying these MEI files. Below the text is my verovio file used to display my MEI file is another way. 
+        <p>In this weeks activity I had the task of understanding basic encoding standards for musical data. In this activity I focused on generated both MusicXML and MEI files and experimenting with rending and modifying these MEI files. Below the text is my verovio file used to display my MEI file. 
          In terms of detailing some of the differences between the MusicXML and MEI files themselves and what differences they may have. MusicXML and MEI are both ways to digitize music notation but they have many differences in their structure. One of these is the way different musical notations are presented within the code through parent and children code lines. 
 
 <div class="header"><h2>The 'Note' Element:</h2>
@@ -36,6 +36,9 @@ The implications here in MEI provide greater flexibility of notations and their 
 - In music XML the clef element contains 'line' and 'octave' this gives information on the position of the clef as well as the octave on top of the clef. 
 -In MEI, the clef contains things such as shape and oct for octave.
 The clef notation is the child to the measure parent element, and the implications are that MEI provides more flexibility when changing clefs which is useful for encoding music on a deeper level, whereas musicXML is basic in comparison. 
+
+ <div class="header"><h2>The 'Key Signature' Element:</h2>
+ - In MusicXML, the key element contains information on the sharpness of notes. In MEI, this is shown as 'keySig' which also provides information but this is for the tone. For both MEI and MusicXML, the key element is a child to the parent 'measure' element.       
 </p><p> </p></div>
     <div id="app">Verovio is loading...</div>
     <script type="module">
