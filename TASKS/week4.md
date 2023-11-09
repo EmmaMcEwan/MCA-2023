@@ -44,7 +44,7 @@ You can access the jSymbolic extracted data in the cvs file [here](../data/ACEXM
 
 ### Pitch Histogram 
 
-![pitch histogram](https://github.com/EmmaMcEwab/MCA-2023/data/pitchhistogram.png?raw=true)
+![pitch histogram](https://ibb.co/ysch6r7)
 
 
 
