@@ -39,5 +39,5 @@ Extracting basic aspects of the file data such as number of pitches, number of p
 
 ## Music21 Charts
 
-<img width="318" alt="pianoroll" src="https://ibb.co/ysch6r7">">
+
 
