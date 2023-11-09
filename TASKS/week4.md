@@ -46,6 +46,10 @@ You can access the jSymbolic extracted data in the cvs file [here](../data/ACEXM
 
 ![Pitch Histogram](../data/pitchhistogram.png)
 
+### Piano Roll of Pitches
+
+![PROP](../data/pianorollofpitches.png)
+
 
 
 
