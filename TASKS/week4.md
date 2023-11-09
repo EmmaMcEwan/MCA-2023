@@ -42,5 +42,9 @@ You can access the jSymbolic extracted data in the cvs file [here](../data/ACEXM
 
 ## Music21 Charts
 
+### Pitch Histogram 
+
+![pitch histogram](https://github.com/EmmaMcEwab/MCA-2023/data//image.jpg?raw=true)
+
 
 
