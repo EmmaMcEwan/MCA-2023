@@ -21,7 +21,7 @@ By using jSymbolic, I was able to generate an analysis on my piece on specific c
 In terms of pitch class histograms, there were several:
 
 | Pitch Class Histogram No.  | Data Result |
-| -------- | ------- |
+| -------- | -------- |
 | 0  | 0.191  |
 | 1  | 0.1206 |
 | 2  | 0      |
