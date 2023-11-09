@@ -50,6 +50,7 @@ You can access the jSymbolic extracted data in the cvs file [here](../data/ACEXM
 
 ![PROP](../data/pianorollofpitches.png)
 
+### Scatter Plot
 
-
+![ScatterPlot](../data/scatterplot.png)
 
