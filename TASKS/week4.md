@@ -37,3 +37,7 @@ In terms of pitch class histograms, there were several:
 
 Extracting basic aspects of the file data such as number of pitches, number of pitch classes, mean pitch, pitch class helps to analyse the basic makeup of the notation file. The other aspects leaned more into a deeper delve into the specifics of the music data. These include pitch variability, intervals between prevalent pitches, most common melodic interval, etc. You can access the jSymbolic extracted data in the cvs file [here](TASKS/ACEXMLFVSP.csv)
 
+## Music21 Charts
+
+
+
