@@ -7,4 +7,12 @@ By using jSymbolic, I was able to generate an analysis on my piece on specific c
 | -------- | ------- |
 | No. of Pitches | 21    |
 | No. of Pitch Classes | 6     |
-| March    | $420    |
+| Range    | 41    |
+| Strong Tonal Centres | 2   |
+| Mean Pitch | 59    |
+| Mean Pitch Class   | 5.608  |
+| Most Common Pitch | 69  |
+| Most Common Pitch Class | 1    |
+| Interval Between Most Prevalent Pitches   | 3  |
+| Pitch Variability | 11.94   |
+| Most Common Melodic Interval | 2    |
