@@ -24,6 +24,6 @@ After being put through Sonic Visualiser, the cvs files for the MFCC panes were 
 
 Dry Hands Analysis Results:
 
-![DryHandsAnalysed](../data/DRYHANDSANALYSED.png)
+![DryHandsAnalysed](../data/DRYHANDSANALYSED.PNG)
 
 
