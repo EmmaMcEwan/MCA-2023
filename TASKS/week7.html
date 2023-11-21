@@ -1,344 +1,219 @@
-<!DOCTYPE html> 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title> Week 7: Curration Challenges </title> 
-  <style> 
-  .container {
-  max-width: 1012px;
-  margin-left: auto;
-  margin-right:auto;
-margin-top: 20px;
-  }
-  body {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 16px;
-    line-height: 1.5;
-    color: #24292e;
-    background-color: #fff;
-	}
-	h1 {
-    padding-bottom: 10px;
-    font-size: 36px;
-    border-bottom: 1px solid #eaecef;
-	}
-	
-	h2 {
-    padding-bottom: 10px;
-    font-size: 24px;
-    border-bottom: 1px solid #eaecef;
-	}
-    
-   table {
-   width: 100%;
-	margin-top:50px;
-   margin-bottom: 50px;
-   margin-right: 30px;
-   margin-left:30px;
-   }
-
-   
-    #right {
-   text-align: right;
-	border: none;
-   }
-#left{
-	border:none;
-	  }
-  
-#menu {
-display: block;
-width: 100%;
-overflow: auto;
-margin-right: 0px;
-margin-left: 0px;
-padding-top: 10px;
-padding-bottom: 10px;
-border: 1px solid #c6cbd;
-border-collapse:collapse;
-display: table-row-group;
-vertical-align: middle;
-	  }
-	  
-#menu, tr {
-    border: 1px solid #c6cbd1;
-	  }
-	  
-#menu, tr, td {
-	padding: 6px 13px;
-	border: 1px solid #dfe2e5; 
-	  }
-#menu, tr, td, a {
-	text-decoration: none;
-	color: #0366d6;
-	  }
-	  
-	mei-titlestmt > mei-title {
-	font-size: 25px;
-    text-transform: capitalize;
-    display: block;
-	font-family: Impact;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 7: Curation Challenges</title>
+  <style>
+    .container {
+      max-width: 1012px;
+      margin: auto;
+      margin-top: 20px;
     }
-    
-#subtitle {
-	display: block;
-    text-transform: uppercase;
-    font-family: Arial Black;
-    font-size: 12px;
-	color: #4d5054;
-}
-
-mei-titlestmt > mei-composer {
-	display: block;
-    margin-top: 30px;
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 16px;
+      line-height: 1.5;
+      color: #24292e;
+      background-color: #fff;
     }
-
-mei-titlestmt > mei-composer::before {
-	content: "Artist:";
-	font-family: Arial;
-	font-weight: bold;
-    }  
-mei-titlestmt > mei-arranger {
-	display: block;
+    h1 {
+      padding-bottom: 10px;
+      font-size: 36px;
+      border-bottom: 1px solid #eaecef;
     }
-
-mei-titlestmt > mei-arranger::before {
-	content: "Arrangement by:";
-	font-family: Arial;
-	font-weight: bold;
+    h2 {
+      padding-bottom: 10px;
+      font-size: 24px;
+      border-bottom: 1px solid #eaecef;
     }
-mei-titlestmt > mei-respstmt > mei-resp {
-	display: none;
+    table {
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-right: 30px;
+      margin-left: 30px;
     }
-
-mei-titlestmt >  mei-respstmt > mei-name {
-	display:block;
-	margin-bottom:30px;
-	  }
-
-mei-titlestmt >  mei-respstmt > mei-name::before {
-	content: "Encoded by:";
-	font-family: Arial;
-	font-weight: bold;
-	
-    }	
-mei-extent {
-	display:none;}
-	  
-mei-editionstmt > mei-title::before {
-	content: "Source of Transcription";
-	text-transform: uppercase;
-	font-family: Arial Black;
-	font-size: 12px;
-	display:block;
-	  }
-
-
-mei-editionstmt > mei-title[type="subtitle"]::before {
-	content:"";
-	  }
-	  
-mei-editionstmt > #subtitle {
-	display:block;
-	  }
-	 
-mei-editionstmt > mei-arranger::before {
-	content: "Arranger:";
-	font-family: Arial;
-	font-weight: bold;
-	  }
-	  
-mei-editionstmt > mei-arranger {
-	display:block;
-	  }
-	  
-mei-editionstmt > mei-respstmt > mei-resp {
-	display:none;
-	  }
-	  
-mei-editionstmt > mei-respstmt > mei-name::before {
-	content: "Published on:";
-	font-family: Arial;
-	font-weight: bold;
-	  }
-	  
-mei-editionstmt > mei-respstmt > mei-name {
-	display: block;
-	margin-bottom: 30px;
-	  }
-	  
-mei-editionstmt > mei-date {
-	display: none;
-	  }
-	  
-mei-pubstmt > mei-publisher {
-	display: none; }
-	  
-mei-pubstmt > mei-date::before {
-	content:",";
-	  }
-	  
-mei-pubstmt > mei-availability > mei-userestrict::before {
-	content: "This file is protected under";
-	font-style: italic;
-	  }
-	  
-mei-pubstmt > mei-availability > mei-userestrict {
-	display: block;
-	font-style: italic;
-	  }
-	  
-mei-seriesstmt > mei-title {
-	display: none;
-	  }
-	  
-mei-seriesstmt > mei-content {
-	display: none;
-	  }
-	  
-mei-seriesstmt > mei-editor {
-	display: none;
-	  }
-	  
-mei-application > mei-name {
-	display: none;
-	  }
-	  
-mei-application > mei-project {
-	display: none;
-	  }
-	  
-mei-appinfo > mei-projectdesc {
-	display: block;
-	font-style: italic;
-	margin-bottom: 30px;
-	  }
-	  
-mei-appinfo > mei-application > mei-p {
-	display:none;
-	  }
-
-mei-worklist > mei-title::before {
-	content: "Original Piece of Work";
-	text-transform: uppercase;
-	font-family: Arial Black;
-	font-size: 12px;
-	display:block;
-	  }
-mei-worklist > mei-title {
-	display: block;
-	  }
-	  
-mei-worklist > mei-composer::before {
-	content: "Artist:";
-	font-family: Arial;
-	font-weight: bold;
-	  }
-	
-mei-worklist > mei-composer {
-	display:block ;
-	  }
-
-mei-worklist > mei-lyricst {
-	display: block;
-	  }
-	  
-mei-worklist > mei-lyricst::before {
-	content: "Lyrics:";
-	font-family: Arial;
-	font-weight: bold;
-	  }
-	  
-mei-worklist > mei-creation > mei-date::before {
-	content: "Released:";
-	font-family: Arial;
-	font-weight: bold;
-	  }
-	  
-mei-worklist > mei-creation > mei-date {
-	display: block;
-	  }
-	  
-mei-worklist > mei-creation > mei-geogname {
-	display:block;
-	  }
-	  
-mei-worklist > mei-creation > mei-geogname::before {
-	content: "Location:";
-	font-family: Arial;
-	font-weight: bold;
-	  }
-	  
-mei-worklist > mei-classification > mei-genre {
-	display: block;
-	margin-bottom: 15px;
-	  }
-	  
-mei-worklist > mei-classification > mei-genre::before {
-	content: "Genre:";
-	font-family: Arial;
-	font-weight: bold;
-	
-
-  <h1> Week 7: Curration Challenges </h1>
-  <h2> Task 1: Updating last week's metadata </h2>
-  <p> By revisting the metadata used in the tasks within week 5, I started to investigate the isseus surrounding the curation of music analytics and data. In regards to week 5, I have added genre information within the mei file, which in the case of the music file I have been looking into, it is often reffered to as the 'Ambient' genre. I did this by adding the < genre > tag into the header of the MEI file. I also additionally added the rights for the music within the Minecraft Game Soundtrack under Creative Commons Attribution-NonCommerical 4.0 International Lisence. You can view the updated file including genre and rights [here](../data/dryhandsgenrerights.mei) <a href="https://github.com/EmmaMcEwan/MCA-2023/blob/master/data/dryhandsgenrerights.mei">here</a>.
-	<h2> Task 2: Rendering the revised metadata </h2>
-	<div id="MEImeta"></div>
-  <div id="app">Verovio is loading...</div>
-  <script type="module">
-      import 'https://www.verovio.org/javascript/app/verovio-app.js';
-      const options = {
-          defaultView: 'responsive', // default is 'responsive', alternative is 'document'
-          defaultZoom: 3, // 0-7, default is 4
-          enableResponsive: true, // default is true
-          enableDocument: true // default is true
-      }
-      // A MusicXML file
-      var file = 'dryhandsgenrerights.mei';
-      // A MEI file
-      //var file = 'https://www.verovio.org/editor/brahms.mei';
-      const app = new Verovio.App(document.getElementById("app"), options);
-      fetch(file)
-          .then(function(response) {
-              return response.text();
-          })
-          .then(function(text) {
-              app.loadData(text);
-          });
-  </script>
-  <script>
-    // Get, parse, and show TEI data
-    var CETEIcean = new CETEI()
-    CETEIcean.getHTML5('dryhandsgenrerights.mei', function(data) {
-      document.getElementById("TEI").appendChild(data)
-    })
-    // Get, parse and show MEI header data
-    var CETEI4MEI = new CETEI()
-    CETEI4MEI.addBehaviors({
-      namespaces: {
-        mei: "http://www.music-encoding.org/ns/mei"
-      }
-    })
-    CETEI4MEI.getHTML5('dryhandsgenrerights.mei', function(data) {
-      // get header
-      var meiHead = data.querySelector('mei-meiHead')
-      document.getElementById("MEImeta").appendChild(meiHead)
-    })
-    var vrvToolkit = new verovio.toolkit()
-    vrvToolkit.setOptions(options = {
-        pageHeight: 500,
-        pageWidth: 1000,
-        ignoreLayout: 1,
-        border: 20,
-        scale: 50,
-        adjustPageHeight: true
-    })
-    fetch('dryhandsgenrerights.mei').then(function( response ) {
-        response.text().then(function( data ) {
-          var svg = vrvToolkit.renderData(data, {})
-          document.getElementById('MEI').innerHTML = svg
-        })
-    })
+    #right, #left {
+      border: none;
+    }
+    #menu {
+      display: block;
+      width: 100%;
+      overflow: auto;
+      margin-right: 0px;
+      margin-left: 0px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 1px solid #c6cbd;
+      border-collapse: collapse;
+      display: table-row-group;
+      vertical-align: middle;
+    }
+    #menu, tr {
+      border: 1px solid #c6cbd1;
+    }
+    #menu, tr, td {
+      padding: 6px 13px;
+      border: 1px solid #dfe2e5;
+    }
+    #menu, tr, td, a {
+      text-decoration: none;
+      color: #0366d6;
+    }
+    mei-titlestmt > mei-title {
+      font-size: 25px;
+      text-transform: capitalize;
+      display: block;
+      font-family: Impact;
+    }
+    #subtitle {
+      display: block;
+      text-transform: uppercase;
+      font-family: Arial Black;
+      font-size: 12px;
+      color: #4d5054;
+    }
+    mei-titlestmt > mei-composer::before {
+      content: "Artist:";
+      font-family: Arial;
+      font-weight: bold;
+    }
+    mei-titlestmt > mei-arranger::before {
+      content: "Arrangement by:";
+      font-family: Arial;
+      font-weight: bold;
+    }
+    mei-titlestmt > mei-respstmt > mei-name::before {
+      content: "Encoded by:";
+      font-family: Arial;
+      font-weight: bold;
+    }
+    mei-extent {
+      display: none;
+    }
+    mei-editionstmt > mei-title::before {
+      content: "Source of Transcription";
+      text-transform: uppercase;
+      font-family: Arial Black;
+      font-size: 12px;
+      display: block;
+    }
+    mei-editionstmt > mei-title[type="subtitle"]::before {
+      content: "";
+    }
+    mei-editionstmt > #subtitle {
+      display: block;
+    }
+    mei-editionstmt > mei-arranger::before {
+      content: "Arranger:";
+      font-family: Arial;
+      font-weight: bold;
+    }
+    mei-editionstmt > mei-arranger {
+      display: block;
+    }
+    mei-editionstmt > mei-respstmt > mei-resp {
+      display: none;
+    }
+    mei-editionstmt > mei-respstmt > mei-name::before {
+      content: "Published on:";
+      font-family: Arial;
+      font-weight: bold;
+    }
+    mei-editionstmt > mei-respstmt > mei-name {
+      display: block;
+      margin-bottom: 30px;
+    }
+    mei-editionstmt > mei-date {
+      display: none;
+    }
+    mei-pubstmt > mei-publisher {
+      display: none;
+    }
+    mei-pubstmt > mei-date::before {
+      content: ",";
+    }
+    mei-pubstmt > mei-availability > mei-userestrict::before {
+      content: "This file is protected under";
+      font-style: italic;
+    }
+    mei-pubstmt > mei-availability > mei-userestrict {
+      display: block;
+      font-style: italic;
+    }
+    mei-seriesstmt > mei-title {
+      display: none;
+    }
+    mei-seriesstmt > mei-content {
+      display: none;
+    }
+    mei-seriesstmt > mei-editor {
+      display: none;
+    }
+    mei-application > mei-name {
+      display: none;
+    }
+    mei-application > mei-project {
+      display: none;
+    }
+    mei-appinfo > mei-projectdesc {
+      display: block;
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+    mei-appinfo > mei-application > mei-p {
+      display: none;
+    }
+    mei-worklist > mei-title::before {
+      content: "Original Piece of Work";
+      text-transform: uppercase;
+      font-family: Arial Black;
+      font-size: 12px;
+      display: block;
+    }
+    mei-worklist > mei-title {
+      display: block;
+    }
+    mei-worklist > mei-composer::before {
+      content: "Artist:";
+      font-family: Arial;
+      font-weight: bold;
+    }
+    mei-worklist > mei-composer {
+      display: block ;
+    }
+    mei-worklist > mei-lyricst {
+      display: block;
+    }
+    mei-worklist > mei-lyricst::before {
+      content: "Lyrics:";
+      font-family: Arial;
+      font-weight: bold;
+    }
+    mei-worklist > mei-creation > mei-date::before {
+      content: "Released:";
+      font-family: Arial;
+      font-weight: bold;
+    }
+    mei-worklist > mei-creation > mei-date {
+      display: block;
+    }
+    mei-worklist > mei-creation > mei-geogname {
+      display: block;
+    }
+    mei-worklist > mei-creation > mei-geogname::before {
+      content: "Location:";
+      font-family: Arial;
+      font-weight: bold;
+    }
+    mei-worklist > mei-classification > mei-genre {
+      display: block;
+      margin-bottom: 15px;
+    }
+    mei-worklist > mei-classification > mei-genre::before {
+      content: "Genre:";
+      font-family: Arial;
 
 
 </div>
