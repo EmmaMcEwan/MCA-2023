@@ -31,4 +31,4 @@ The metadata scheme I have chosen to focus on these elements about the metadata:
 
 ### Modifying the file
 
-My MEI file has been updated regarding the specifics of the metadata above and can be accessed here
+My MEI file has been updated regarding the specifics of the metadata above and can be accessed here [mei](../data/dryhands.mei)
