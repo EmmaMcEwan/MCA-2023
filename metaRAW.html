@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>My Piece</title>
+  <title>Week 7 Task - Complications With Data Curation</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/myMeta.css" media="all" />
   <link rel="stylesheet" href="css/style.css" media="all" />
@@ -18,9 +18,9 @@
           enableDocument: true // default is true
       }
       // A MusicXML file
-      var file = 'data/example.mei';
+      var file = 'dryhandsgenrerights.mei';
       // A MEI file
-      //var file = 'https://www.verovio.org/editor/brahms.mei';
+      //var file = 'dryhandsgenrerights.mei';
       const app = new Verovio.App(document.getElementById("app"), options);
       fetch(file)
           .then(function(response) {
@@ -43,7 +43,7 @@
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5("data/example.mei", function(data) {
+    CETEI4MEI.getHTML5("dryhandsgenrerights.mei", function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -57,7 +57,7 @@
         scale: 50,
         adjustPageHeight: true
     })
-    fetch("data/example.mei").then(function( response ) {
+    fetch("dryhandsgenrerights.mei").then(function( response ) {
         response.text().then(function( data ) {
           var svg = vrvToolkit.renderData(data, {})
           document.getElementById('MEI').innerHTML = svg
