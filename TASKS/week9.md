@@ -22,8 +22,15 @@ I have prvodied the panes from my analysis via Sonic Visualiser below for each t
 
 After being put through Sonic Visualiser, the cvs files for the MFCC panes were put through python in order to analyse the differences between the tracks:
 
-Dry Hands Analysis Results:
+### 'Dry Hands' Analysis Results:
 
 ![DryHandsA](../data/dryhandsa.PNG)
 
+### 'Wet Hands' Analysis Results:
+
+![WetHandsA](../data/
+
+### 'Key' Analysis Results:
+
+![KeyA](../data/
 
