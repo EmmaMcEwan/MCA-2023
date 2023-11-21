@@ -39,3 +39,49 @@ After being put through Sonic Visualiser, the cvs files for the MFCC panes were 
 ![KeyA](../data/KeyPicture.png)
 
 
+## Analysis:
+
+In terms of analysis, this process does allow me to see the minor differences between each track, but due to the similatiries between them it does become diffcult to see massive changes between each audio file. The genre of my chosen tracks all fall under ambience which usually doesn't have very striking or remarkable sudden or harsh keys played in it as it relies moslty on the longevity of notes. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
