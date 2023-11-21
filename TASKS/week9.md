@@ -28,7 +28,7 @@ After being put through Sonic Visualiser, the cvs files for the MFCC panes were 
 
 ### 'Wet Hands' Analysis Results:
 
-![WetHandsA](../data/
+![WetHandsA](../data/WetHandsPicture.png)
 
 ### 'Key' Analysis Results:
 
