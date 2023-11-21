@@ -9,7 +9,7 @@
 
 [week 5](TASKS/week5.md)
 
-[week 7](TASKS/week7.md)
+[week 7](TASKS/week7.html)
 
 [week 8](TASKS/week8.md)
 
