@@ -9,10 +9,8 @@
 
 [week 5](TASKS/week5.md)
 
-6
+[week 7](TASKS/week7.md)
 
-7
-
-8
+[week 8](TASKS/week8.md)
 
 [week 9](TASKS/week9.md)
