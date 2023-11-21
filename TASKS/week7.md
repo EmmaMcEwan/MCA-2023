@@ -6,6 +6,8 @@ By revisting the metadata used in the tasks within week 5, I started to investig
 
 ## Task 2: Rendering the Revised Metadata:
 
+My work for this part of the task can be viewed [here](metaRAW.html)
+
 
 
 
