@@ -14,4 +14,4 @@ This task invloved transcription from my orginial musescore file and the analyse
 
 And this is the result of transcribing my audio file through all of these processes:
 
-![NewMuse](../data/newmusescore.pdf)
+![NewMuse](../data/newmusescore.png)
