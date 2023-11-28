@@ -2,11 +2,11 @@
 
 ## Metadata
 
-### Task One: Creating a Metadata Scheme
+## Task One: Creating a Metadata Scheme
 
 The metadata scheme I have chosen to focus on these elements about the metadata:
 
-#### The Metadata in the File:
+### The Metadata in the File:
 
 - The size of the file
 - The title of the file
@@ -15,14 +15,14 @@ The metadata scheme I have chosen to focus on these elements about the metadata:
 - The source of the file
 - The date the file was created
 
-  #### The Metadata Regarding Encoding:
+  ### The Metadata Regarding Encoding:
 
   - Project descriptions
   - Programme used to encode & the encoding language
   - Encoding date and time
   - Edits made to the encoding
 
-     #### The Metadata Regarding The OG Piece:
+     ### The Metadata Regarding The OG Piece:
 
     - The title of the piece
     - The composer/lyricist of the piece
