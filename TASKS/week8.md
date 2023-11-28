@@ -11,3 +11,7 @@ Below is a table describing the data surrounding the audio files in which I have
 | Wet Hands  | C418   | C418     | © Mojang AB     | Ambient | [Here](https://downloads.khinsider.com/game-soundtracks/album/minecraft) | MP3                 | Stereo   | 44.1 kHz    | 16 bit          | 1:30 min  |
 | Dry Hands  | C418   | C418     | © Mojang AB     | Ambient | [Here](https://downloads.khinsider.com/game-soundtracks/album/minecraft) | MP3                 | Stereo   | 44.1 kHz    | 16 bit          | 1:07 min  |
 
+## Task Two
+Below I have peformed basic analysis of the three tracks chosen on Sonic Visualiser:
+
+'Key' Spectrogram and Waveform:
