@@ -31,3 +31,5 @@ Below I have peformed basic analysis of the three tracks chosen on Sonic Visuali
 ![Spec2](../data/dryhandsspec.png)
 
 ![Wave2](../data/dryhandswave.png)
+
+In terms of analysis into why time-frequency analysis has its advantages in the context of wave-form based analysis, for example it uses insights into the frequency content of a track. This is really useful when it comes to music trakcs that are hard to read the changes of frequencies within. The tracks that I have focused on are all ambient genre which makes it hard to distinguish changes in the music so this form of analysis is helpful to notice the slight frequency changes throughout the tracks.
