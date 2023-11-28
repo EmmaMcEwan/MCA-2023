@@ -28,6 +28,6 @@ Below I have peformed basic analysis of the three tracks chosen on Sonic Visuali
 
 'Dry Hands' Spectrogram and Waveform:
 
-[Spec2](../data/dryhandsspec.png)
+![Spec2](../data/dryhandsspec.png)
 
-[Wave2](../data/dryhandswave.png)
+![Wave2](../data/dryhandswave.png)
