@@ -19,3 +19,15 @@ Below I have peformed basic analysis of the three tracks chosen on Sonic Visuali
 ![Spec](../data/keyspec.png)
 
 ![Wave](../data/keywave.png)
+
+'Wet Hands' Spectrogram and Waveform:
+
+![Spec1](../data/wethandsspec.png)
+
+![Wave1](../data/wethandswave.png)
+
+'Dry Hands' Spectrogram and Waveform:
+
+[Spec2](../data/dryhandsspec.png)
+
+[Wave2](../data/dryhandswave.png)
