@@ -15,3 +15,7 @@ Below is a table describing the data surrounding the audio files in which I have
 Below I have peformed basic analysis of the three tracks chosen on Sonic Visualiser:
 
 'Key' Spectrogram and Waveform:
+
+![Spec](../data/keyspec.png)
+
+![Wave](../data/keywave.png)
